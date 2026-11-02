@@ -7,13 +7,13 @@ A modern e-commerce web application built with Next.js, React, Sanity CMS, and S
 ## Screenshots
 
 ### Home Page
-![E-commerce Home Page](./screenshots/sanity-ecommerce-main.png)
+![E-commerce Home Page](./screenshots/sanity-e-commerce-main.png)
 
 ### Shopping Bag
-![Shopping Bag](./screenshots/sanity-ecommerce-bag.png)
+![Shopping Bag](./screenshots/sanity-e-commerce-bag.png)
 
 ### Successful Order
-![Successful Order](./screenshots/sanity-ecommerce-success.png)
+![Successful Order](./screenshots/sanity-e-commerce-success.png)
 
 ## Features
 
