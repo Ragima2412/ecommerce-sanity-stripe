@@ -1,6 +1,57 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# E-commerce Store – Sanity & Stripe
 
-## Getting Started
+A modern e-commerce web application built with Next.js, React, Sanity CMS, and Stripe. Users can browse products, view product details, manage their shopping cart, and complete checkout using Stripe's hosted payment page.
+
+## Screenshots
+
+## Screenshots
+
+### Home Page
+![E-commerce Home Page](./screenshots/sanity-ecommerce-main.png)
+
+### Shopping Bag
+![Shopping Bag](./screenshots/sanity-ecommerce-bag.png)
+
+### Successful Order
+![Successful Order](./screenshots/sanity-ecommerce-success.png)
+
+## Features
+
+- Browse products and view product details
+- Product catalog managed with Sanity CMS
+- Add and remove products from the shopping cart
+- Increase and decrease product quantities
+- Automatically calculate cart totals
+- Stripe Checkout integration
+- Hosted checkout page for secure test payments
+- Success and cancellation pages after checkout
+- Responsive user interface
+
+## Technologies
+
+- Next.js
+- React
+- JavaScript
+- Sanity CMS
+- Stripe Checkout
+- Stripe.js
+- Context API
+- HTML5
+- CSS3
+
+## Payment Integration
+
+The application integrates Stripe Checkout to handle the payment flow.
+
+The checkout process includes:
+
+1. Sending cart items to the backend API.
+2. Creating a Stripe Checkout Session.
+3. Redirecting the customer to Stripe's hosted checkout page.
+4. Processing payments in Stripe Sandbox (Test Mode).
+5. Redirecting the customer to the success or cancellation page.
+
+**Note:** Stripe is configured in test mode. No real payments are processed.
 
 First, run the development server:
 
@@ -11,24 +62,13 @@ yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+```bash
+git clone YOUR_REPOSITORY_URL
+cd ecommerce-sanity-stripe
+```
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### 2. Install dependencies
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```bash
+npm install
+```
