@@ -5,16 +5,16 @@ A modern e-commerce web application built with Next.js, React, Sanity CMS, and S
 ## Screenshots
 
 ## Screenshots
+## Screenshots
 
 ### Home Page
-![E-commerce Home Page](./screenshots/sanity-e-commerce-main.png)
+<img src="./screenshots/sanity-e-commerce-main.png" width="500" alt="Home Page" />
 
 ### Shopping Bag
-![Shopping Bag](./screenshots/sanity-e-commerce-bag.png)
+<img src="./screenshots/sanity-e-commerce-bag.png" width="500" alt="Shopping Bag" />
 
 ### Successful Order
-![Successful Order](./screenshots/sanity-e-commerce-success.png)
-
+<img src="./screenshots/sanity-e-commerce-success.png" width="500" alt="Successful Order" />
 ## Features
 
 - Browse products and view product details
