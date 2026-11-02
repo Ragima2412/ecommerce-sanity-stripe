@@ -23,7 +23,7 @@ A modern e-commerce web application built with Next.js, React, Sanity CMS, and S
 - Automatically calculate cart totals
 - Stripe Checkout integration
 - Hosted checkout page for secure test payments
-- Success and cancellation pages after checkout
+- Success and cancellation pages after checkoutgit add
 - Responsive user interface
 
 ## Technologies
